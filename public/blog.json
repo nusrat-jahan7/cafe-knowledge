@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Exploring the World of JavaScript and ES6",
+        "cover_img": "https://i.ibb.co/8b3xrSN/1.jpg",
+        "author_name": "Alice Alyne",
+        "author_img": "https://i.ibb.co/SQjGPTy/girl1.jpg",
+        "read_time": "15 minutes"
+      },     
+      {
+        "id": 2,
+        "title": "Exploring the World of AI",
+        "cover_img": "https://i.ibb.co/rctr0Gs/2.png",
+        "author_name": "James Johnson",
+        "author_img": "https://i.ibb.co/qpY6fhw/boy2.jpg",
+        "read_time": "20 minutes"
+      },
+      {
+        "id": 3,
+        "title": "The React Art of Photography",
+        "cover_img": "https://i.ibb.co/dg9HDzC/3.png",
+        "author_name": "Emma Davis",
+        "author_img": "https://i.ibb.co/6YxVRXk/girl2.jpg",
+        "read_time": "12 minutes"
+      }          
+]
