@@ -1,7 +1,7 @@
 import { PropTypes } from "prop-types";
 import {  BiBookmarkHeart } from "react-icons/bi";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookmark }) => {
   const { title, cover_img, author_name, author_img, read_time } = blog;
 
   return (
@@ -21,7 +21,7 @@ const Blog = ({ blog }) => {
         </div>
         <div className="flex gap-4">
             <h1> {read_time} read  </h1>
-            <button className="text-2xl"><BiBookmarkHeart/></button>
+            <button onClick={() => handleBookmark(blog)} className="text-2xl"><BiBookmarkHeart/></button>
         </div>
       </div>
       <h1 className="text-3xl font-semibold mt-4">{title}</h1>
@@ -36,6 +36,7 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleBookmark: PropTypes.func
 };
 
 export default Blog;
